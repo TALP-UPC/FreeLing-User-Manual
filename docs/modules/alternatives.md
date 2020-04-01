@@ -51,6 +51,9 @@ The constructor of this module expects a configuration file containing the follo
 
        The dictionary can be any file containing one form per line. Only first field in the line will be considered, which makes it possible to use a basic FreeLing [dictionary file](dictionary.md) since the morphological information will be ignored.
 
+   * `Compounds (yes|no)`
+       Use compound detector to consider multiword alternatives (e.g. "schoolteacher" -> "school teacher")
+
     * `PhoneticDictionary filename`  
        Dictionary where the candidate alternatives words are going to be searched.
        Only needed if `Type` is `phonetic`.
