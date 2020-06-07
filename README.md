@@ -19,4 +19,4 @@ Non-developer users can also find useful information, such as:
   available options
 
 
-Continue to the [Table of Contents](toc.md)
+Continue to the [Table of Contents](docs/toc.md)
