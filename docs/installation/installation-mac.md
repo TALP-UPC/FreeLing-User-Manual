@@ -22,7 +22,7 @@ Finally, it assumes you know where you want to install FreeLing (e.g. `/Users/my
   ```
   This will install FreeLing in `/usr/local`.  
 
-You can speed up compilation using several processors with, e.g.,  `make -j 4 install` (you can replace `4` with the number of processors you want to use).
+You can speed up compilation using several processors with, e.g.,  `make -j 4 install` (you can replace `4` with the number of processors you want to use). You can also execute only `make` to build the system before install it with `make install`. To report any error, execute `make VERBOSE=1`.
   
 To change the destination directory, add option `-DCMAKE_INSTALL_PREFIX=$FLINSTALL` to the `cmake` command (where `$FLINSTALL` is the path where you want to install FreeLing).
 
